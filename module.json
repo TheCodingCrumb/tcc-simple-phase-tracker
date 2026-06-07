@@ -1,0 +1,40 @@
+{
+  "id": "tcc-simple-phase-tracker",
+  "title": "Simple phase tracker",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "TheCodingCrumb",
+      "discord": "drumnem",
+      "flags": {
+        "github": "TheCodingCrumb"
+      }
+    },
+    {
+      "name": "Sedai",
+      "discord": "sedai_khotor",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "description": "",
+  "styles": [
+    "styles/module.css"
+  ],
+  "esmodules": [
+    "simple-phase-tracker.js"
+  ]
+}

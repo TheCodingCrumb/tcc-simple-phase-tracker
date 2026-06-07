@@ -1,0 +1,21 @@
+.tcc-spt-centered-body {
+    pointer-events: all;
+    background: rgba(11, 10, 19, 0.75);
+    border: 1px solid #302831;
+    border-radius: 8px;
+    padding: 6px 8px;
+    margin-top: 1rem;
+}
+
+.tcc-spt-text {
+    font-size: var(--font-size-14);
+    text-align: center;
+}
+
+.tcc-spt-btn-wrapper {
+    font-size: var(--font-size-14);
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+}

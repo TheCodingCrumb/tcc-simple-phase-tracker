@@ -1,0 +1,13 @@
+<div class="tcc-spt-centered-body faded-ui">
+    <div class="tcc-spt-text">
+        {{number}} {{step}} in {{phase}}
+    </div>
+    {{#if isGM}}
+    <div class="tcc-spt-btn-wrapper">
+        <button data-update-previous-step>-1 {{step}}</button>
+        <button data-update-next-step>+1 {{step}}</button>
+        <button data-update-previous-phase>-1 phase</button>
+        <button data-update-next-phase>+1 phase</button>
+    </div>
+    {{/if}}
+</div>
